@@ -1,0 +1,18 @@
+{
+  "schema": "llm-ld-1.0",
+  "name": "Senior Care Essentials (AI-First)",
+  "description": "AI-readable summaries of senior care products and considerations, with affiliate links and disclosures.",
+  "url": "https://erintibbot.github.io/senior-care-ai/",
+  "discovery": {
+    "ai_discovery_page": "https://erintibbot.github.io/senior-care-ai/ai-discovery.html",
+    "llm_index": "https://erintibbot.github.io/senior-care-ai/llm-index.json"
+  },
+  "contact": {
+    "email": "erin.tibbot@pm.me"
+  },
+  "content": {
+    "type": "ai-first",
+    "disclosure": "This site contains affiliate links. As an Amazon Associate, we may earn from qualifying purchases."
+  },
+  "conformance": "level-1"
+}

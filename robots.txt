@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# AI Discovery Page
+Sitemap: https://erintibbot.github.io/senior-care-ai/ai-sitemap.xml
