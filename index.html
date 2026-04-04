@@ -2,33 +2,142 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Senior Care Essentials (AI-First)</title>
-  <meta name="description" content="AI-readable resources for Senior care." />
+  <meta name="description" content="Room-by-room senior home safety recommendations with practical product picks and affiliate links." />
+  <style>
+    :root { color-scheme: light; --bg: #f6f7f4; --card: #ffffff; --ink: #1f2937; --muted: #5b6472; --line: #d9dee7; --accent: #1d4ed8; --high: #b91c1c; --medium: #92400e; --low: #166534; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--ink); background: var(--bg); line-height: 1.5; }
+    a { color: var(--accent); }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 32px 20px 80px; }
+    header { margin-bottom: 28px; }
+    .eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .8rem; color: var(--muted); margin: 0 0 8px; }
+    h1 { font-size: clamp(2rem, 4vw, 3.3rem); line-height: 1.05; margin: 0 0 14px; }
+    .lede { max-width: 860px; font-size: 1.05rem; color: var(--muted); margin: 0 0 16px; }
+    .disclosure { background: #fff8e1; border: 1px solid #f6d365; border-radius: 12px; padding: 14px 16px; margin-top: 18px; }
+    .summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; margin: 26px 0 36px; }
+    .summary-card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+    .summary-card strong { display: block; font-size: 1.6rem; margin-bottom: 6px; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 32px; }
+    nav a { background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 8px 14px; text-decoration: none; color: var(--ink); font-size: .95rem; }
+    section.room { margin: 0 0 40px; }
+    .room-head { display: flex; align-items: end; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
+    .room-head h2 { margin: 0; font-size: 1.6rem; }
+    .room-head p { margin: 6px 0 0; color: var(--muted); max-width: 760px; }
+    .room-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+    .product-card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px; display: flex; flex-direction: column; gap: 12px; min-height: 100%; }
+    .meta { display: flex; flex-wrap: wrap; gap: 8px; }
+    .pill { display: inline-flex; align-items: center; border-radius: 999px; padding: 5px 10px; font-size: .8rem; font-weight: 600; background: #eef2ff; color: #3730a3; }
+    .pill.high { background: #fee2e2; color: var(--high); }
+    .pill.medium { background: #ffedd5; color: var(--medium); }
+    .pill.low { background: #dcfce7; color: var(--low); }
+    .product-card h3 { margin: 0; font-size: 1.1rem; line-height: 1.3; }
+    .product-type { color: var(--muted); font-weight: 600; margin-top: -4px; }
+    .label { font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-bottom: 4px; }
+    .problem, .notes { margin: 0; color: var(--ink); }
+    .notes { color: var(--muted); }
+    .actions { margin-top: auto; padding-top: 4px; }
+    .button { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 700; padding: 10px 14px; border-radius: 10px; }
+    .note-box { background: var(--card); border: 1px dashed var(--line); border-radius: 14px; padding: 18px; color: var(--muted); }
+    footer { margin-top: 54px; color: var(--muted); font-size: .95rem; }
+  </style>
 </head>
 <body>
-  <h1>Senior Care Essentials (AI-First)</h1>
-  <p><strong>Disclosure:</strong> This site contains affiliate links. As an Amazon Associate, we may earn from qualifying purchases.</p>
+  <div class="wrap">
+    <header>
+      <p class="eyebrow">AI-first senior home safety</p>
+      <h1>Room-by-room product recommendations for safer aging in place</h1>
+      <p class="lede">This page turns common home safety hazards into practical product recommendations. The goal is simple: identify the problem first, then suggest a useful fix. No pricing, no hype, just clearer next steps.</p>
+      <div class="disclosure"><strong>Disclosure:</strong> This site contains affiliate links. As an Amazon Associate, we may earn from qualifying purchases.</div>
+    </header>
 
-  <section>
-    <h2>Top Product Categories</h2>
-    <ul>
-      <li>Category 1 — placeholder summary + intent keywords</li>
-      <li>Category 2 — placeholder summary + intent keywords</li>
-      <li>Category 3 — placeholder summary + intent keywords</li>
-    </ul>
-  </section>
+    <section class="summary-grid" aria-label="Site summary">
+      <article class="summary-card"><strong>26</strong><span>total recommendation rows imported</span></article>
+      <article class="summary-card"><strong>23</strong><span>products ready with affiliate links</span></article>
+      <article class="summary-card"><strong>8</strong><span>room and household areas covered</span></article>
+      <article class="summary-card"><strong>3</strong><span>guidance-only items still missing links</span></article>
+    </section>
 
-  <section>
-    <h2>Recommended Products (Sample)</h2>
-    <ul>
-      <li>Product A — <a href="https://www.amazon.com/?tag=conquer04e-20">Amazon link</a></li>
-      <li>Product B — <a href="https://www.amazon.com/?tag=conquer04e-20">Amazon link</a></li>
-    </ul>
-  </section>
+    <nav aria-label="Room navigation">
+      <a href="#bathroom">Bathroom</a>
+      <a href="#bedroom">Bedroom</a>
+      <a href="#stairs">Stairs</a>
+      <a href="#entryway">Entryway</a>
+      <a href="#living-room">Living Room</a>
+      <a href="#exterior-walkways">Exterior Walkways</a>
+      <a href="#hallway">Hallway</a>
+      <a href="#emergency-prep">Emergency Prep</a>
+    </nav>
 
-  <section>
-    <h2>AI-Readable Summary</h2>
-    <p>Summarize the intent, features, and selection criteria in short bullet points.</p>
-  </section>
+    <section class="room" id="bathroom">
+      <div class="room-head"><div><h2>Bathroom</h2><p>Bathroom falls are common because water, transfers, and low visibility stack risk fast. These picks focus on traction, support, and safer bathing.</p></div></div>
+      <div class="room-grid">
+        <article class="product-card"><div class="meta"><span class="pill high">High priority</span><span class="pill">slippery-surface</span></div><h3>gorilla grip</h3><div class="product-type">Non-slip bath mat</div><div><div class="label">Problem</div><p class="problem">Floor becomes slick after bathing</p></div><div><div class="label">Selection note</div><p class="notes">Strong grip and easy to clean</p></div><div class="actions"><a class="button" href="https://amzn.to/489PO0M">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill high">High priority</span><span class="pill">inadequate-support</span></div><h3>moen haome safety grab bar</h3><div class="product-type">Grab bars</div><div><div class="label">Problem</div><p class="problem">Difficulty stepping into shower or standing up</p></div><div><div class="label">Selection note</div><p class="notes">Secure mounting and load-bearing design</p></div><div class="actions"><a class="button" href="https://amzn.to/4sZ1mfW">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill high">High priority</span><span class="pill">transfer-support</span></div><h3>Pelegon</h3><div class="product-type">Toilet safety rail</div><div><div class="label">Problem</div><p class="problem">Difficulty getting on/off toilet</p></div><div><div class="label">Selection note</div><p class="notes">Stable frame and fit around toilet</p></div><div class="actions"><a class="button" href="https://amzn.to/47G5EjF">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill high">High priority</span><span class="pill">seated-bathing</span></div><h3>Shower chair</h3><div class="product-type">Shower chair</div><div><div class="label">Problem</div><p class="problem">Fatigue or instability during showers</p></div><div><div class="label">Selection note</div><p class="notes">Non-slip feet and proper width</p></div><div class="actions"><a class="button" href="https://amzn.to/4sgD0Nr">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill medium">Medium priority</span><span class="pill">handheld-rinse</span></div><h3>Handheld shower head</h3><div class="product-type">Handheld shower head</div><div><div class="label">Problem</div><p class="problem">Difficulty bathing while seated</p></div><div><div class="label">Selection note</div><p class="notes">Long hose and easy controls</p></div><div class="actions"><a class="button" href="https://amzn.to/4dtZUNv">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill medium">Medium priority</span><span class="pill">night-navigation</span></div><h3>Bathroom night light</h3><div class="product-type">Bathroom night light</div><div><div class="label">Problem</div><p class="problem">Poor nighttime visibility</p></div><div><div class="label">Selection note</div><p class="notes">Low glare and automatic activation</p></div><div class="actions"><a class="button" href="https://amzn.to/41effuf">View product</a></div></article>
+      </div>
+    </section>
+    <section class="room" id="bedroom">
+      <div class="room-head"><div><h2>Bedroom</h2><p>Bedroom safety is mostly about transfers, lighting, and keeping the path out of bed clear when someone is tired or disoriented.</p></div></div>
+      <div class="room-grid">
+        <article class="product-card"><div class="meta"><span class="pill high">High priority</span><span class="pill">poor-lighting</span></div><h3>Motion sensor night light</h3><div class="product-type">Motion sensor night light</div><div><div class="label">Problem</div><p class="problem">Unsafe path from bed at night</p></div><div><div class="label">Selection note</div><p class="notes">Soft light and reliable trigger</p></div><div class="actions"><a class="button" href="https://amzn.to/4vaQHA0">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill high">High priority</span><span class="pill">unsafe-bed-transfer</span></div><h3>Bed rail</h3><div class="product-type">Bed rail</div><div><div class="label">Problem</div><p class="problem">Difficulty getting in/out of bed</p></div><div><div class="label">Selection note</div><p class="notes">Fit and compatibility matter</p></div><div class="actions"><a class="button" href="https://amzn.to/4c4dRiZ">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill medium">Medium priority</span><span class="pill">cluttered-path</span></div><h3>Storage organizer</h3><div class="product-type">Storage organizer</div><div><div class="label">Problem</div><p class="problem">Items create trip hazards beside the bed</p></div><div><div class="label">Selection note</div><p class="notes">Simple accessible storage</p></div><div class="actions"><a class="button" href="https://amzn.to/4mtQGn7">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill medium">Medium priority</span><span class="pill">call-for-help</span></div><h3>Medical alert button</h3><div class="product-type">Medical alert button</div><div><div class="label">Problem</div><p class="problem">Unable to get help after a fall</p></div><div><div class="label">Selection note</div><p class="notes">Depends on user needs and subscription tolerance</p></div><div class="actions"><a class="button" href="https://amzn.to/3OkCCzq">View product</a></div></article>
+      </div>
+    </section>
+    <section class="room" id="stairs">
+      <div class="room-head"><div><h2>Stairs</h2><p>Stairs create high-consequence fall risk. These recommendations focus on traction, support, and edge visibility.</p></div></div>
+      <div class="room-grid">
+        <article class="product-card"><div class="meta"><span class="pill high">High priority</span><span class="pill">missing-traction</span></div><h3>Stair tread tape</h3><div class="product-type">Stair tread tape</div><div><div class="label">Problem</div><p class="problem">Slick stair edges</p></div><div><div class="label">Selection note</div><p class="notes">Durable high-traction surface</p></div><div class="actions"><a class="button" href="https://amzn.to/48pNAKI">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill high">High priority</span><span class="pill">missing-handrail</span></div><h3>Handrail kit</h3><div class="product-type">Handrail kit</div><div><div class="label">Problem</div><p class="problem">No usable support on stairs</p></div><div><div class="label">Selection note</div><p class="notes">Continuous graspable rail</p></div><div class="actions"><a class="button" href="https://amzn.to/4e2k6X0">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill medium">Medium priority</span><span class="pill">poor-visibility</span></div><h3>Stair lighting</h3><div class="product-type">Stair lighting</div><div><div class="label">Problem</div><p class="problem">Hard to see stair edges</p></div><div><div class="label">Selection note</div><p class="notes">Consistent low-glare illumination</p></div><div class="actions"><a class="button" href="https://amzn.to/3QkdxVR">View product</a></div></article>
+      </div>
+    </section>
+    <section class="room" id="entryway">
+      <div class="room-head"><div><h2>Entryway</h2><p>Entry transitions are where slips, thresholds, wet surfaces, and shoe clutter often combine into avoidable falls.</p></div></div>
+      <div class="room-grid">
+        <article class="product-card"><div class="meta"><span class="pill high">High priority</span><span class="pill">step-access</span></div><h3>Threshold ramp</h3><div class="product-type">Threshold ramp</div><div><div class="label">Problem</div><p class="problem">High threshold or unstable first step</p></div><div><div class="label">Selection note</div><p class="notes">Match height and mobility aid needs</p></div><div class="actions"><a class="button" href="https://amzn.to/3PO9oJM">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill medium">Medium priority</span><span class="pill">weather-slip</span></div><h3>Outdoor non-slip mat</h3><div class="product-type">Outdoor non-slip mat</div><div><div class="label">Problem</div><p class="problem">Slippery wet entry</p></div><div><div class="label">Selection note</div><p class="notes">Drainage and grip matter</p></div><div class="actions"><a class="button" href="https://amzn.to/4c11fJf">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill low">Low priority</span><span class="pill">shoe-clutter</span></div><h3>Shoe storage bench</h3><div class="product-type">Shoe storage bench</div><div><div class="label">Problem</div><p class="problem">Shoes create tripping near the door</p></div><div><div class="label">Selection note</div><p class="notes">Stable seating plus storage</p></div><div class="actions"><a class="button" href="https://amzn.to/4bNCd1u">View product</a></div></article>
+      </div>
+    </section>
+    <section class="room" id="living-room">
+      <div class="room-head"><div><h2>Living Room</h2><p>Living room hazards are often subtle: low seating, unstable rugs, and furniture layouts that shrink safe walking paths.</p></div></div>
+      <div class="room-grid">
+        <article class="product-card"><div class="meta"><span class="pill medium">Medium priority</span><span class="pill">seating-transfer</span></div><h3>Firm seat cushion / lift assist cushion</h3><div class="product-type">Firm seat cushion / lift assist cushion</div><div><div class="label">Problem</div><p class="problem">Low soft seating makes standing difficult</p></div><div><div class="label">Selection note</div><p class="notes">Match user strength and chair style</p></div><div class="actions"><a class="button" href="https://amzn.to/489RwPK">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill high">High priority</span><span class="pill">rug-trip</span></div><h3>Rug grippers</h3><div class="product-type">Rug grippers</div><div><div class="label">Problem</div><p class="problem">Loose rug edges create fall risk</p></div><div><div class="label">Selection note</div><p class="notes">Works with rug and floor type</p></div><div class="actions"><a class="button" href="https://amzn.to/3PO9Fwi">View product</a></div></article>
+      </div>
+      <div class="note-box" style="margin-top:16px;">Still missing a direct affiliate link for: Furniture risers or layout aids.</div>
+    </section>
+    <section class="room" id="exterior-walkways">
+      <div class="room-head"><div><h2>Exterior Walkways</h2><p>Outside paths need dependable lighting, traction, and support near level changes, especially in wet or icy conditions.</p></div></div>
+      <div class="room-grid">
+        <article class="product-card"><div class="meta"><span class="pill medium">Medium priority</span><span class="pill">poor-lighting</span></div><h3>Solar path lights</h3><div class="product-type">Solar path lights</div><div><div class="label">Problem</div><p class="problem">Dark path to door or mailbox</p></div><div><div class="label">Selection note</div><p class="notes">Need dependable brightness and weather resistance. my experience is these last about 1-2 years, no matter what brand.</p></div><div class="actions"><a class="button" href="https://amzn.to/3PHcIGD">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill high">High priority</span><span class="pill">missing-support</span></div><h3>Outdoor handrail kit</h3><div class="product-type">Outdoor handrail kit</div><div><div class="label">Problem</div><p class="problem">Lack of support near steps or ramp</p></div><div><div class="label">Selection note</div><p class="notes">Weather resistance and secure mounting</p></div><div class="actions"><a class="button" href="https://amzn.to/4e2k6X0">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill high">High priority</span><span class="pill">slippery-surface</span></div><h3>Outdoor traction strips</h3><div class="product-type">Outdoor traction strips</div><div><div class="label">Problem</div><p class="problem">Wet or icy walkway conditions</p></div><div><div class="label">Selection note</div><p class="notes">This is the stickiest one. Clean the surface really well first.</p></div><div class="actions"><a class="button" href="https://amzn.to/4dZcy7l">View product</a></div></article>
+        <article class="product-card"><div class="meta"><span class="pill high">High priority</span><span class="pill">slippery-surface</span></div><h3>Outdoor traction strips</h3><div class="product-type">Outdoor traction strips</div><div><div class="label">Problem</div><p class="problem">Wet or icy walkway conditions</p></div><div><div class="label">Selection note</div><p class="notes">Screw down type has more texture for extreme conditions</p></div><div class="actions"><a class="button" href="https://amzn.to/4mtRUPf">View product</a></div></article>
+      </div>
+      <div class="note-box" style="margin-top:16px;">Still missing a direct affiliate link for: Path marking / temporary edge visibility products.</div>
+    </section>
+    <section class="room" id="hallway">
+      <div class="room-head"><div><h2>Hallway</h2><p>Hallway risks are usually simple but important: dark travel paths and poor night visibility between rooms.</p></div></div>
+      <div class="room-grid">
+        <article class="product-card"><div class="meta"><span class="pill medium">Medium priority</span><span class="pill">poor-lighting</span></div><h3>Hallway night light</h3><div class="product-type">Hallway night light</div><div><div class="label">Problem</div><p class="problem">Dark travel corridor</p></div><div><div class="label">Selection note</div><p class="notes">Automatic and low glare</p></div><div class="actions"><a class="button" href="https://amzn.to/4m7bnVr">View product</a></div></article>
+      </div>
+    </section>
+    <section class="room" id="emergency-prep">
+      <div class="room-head"><div><h2>Emergency Prep</h2><p>Emergency response deserves its own decision layer because some solutions are product-based while others are service-based.</p></div></div>
+      <div class="note-box" style="margin-top:16px;">Still missing a direct affiliate link for: Medical alert system.</div>
+    </section>
+
+    <footer>
+      <p>This page currently shows products only where a usable affiliate link is already available in the source CSV. Guidance-only items remain noted but not linked until they are filled in.</p>
+    </footer>
+  </div>
 </body>
 </html>

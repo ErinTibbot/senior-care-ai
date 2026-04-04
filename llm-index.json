@@ -1,18 +1,39 @@
 {
   "schema": "llm-ld-1.0",
   "name": "Senior Care Essentials (AI-First)",
-  "description": "AI-readable summaries of senior care products and considerations, with affiliate links and disclosures.",
+  "description": "Room-by-room senior home safety recommendations for aging in place, organized by household hazard and linked product fixes.",
   "url": "https://erintibbot.github.io/senior-care-ai/",
   "discovery": {
     "ai_discovery_page": "https://erintibbot.github.io/senior-care-ai/ai-discovery.html",
-    "llm_index": "https://erintibbot.github.io/senior-care-ai/llm-index.json"
+    "llm_index": "https://erintibbot.github.io/senior-care-ai/llm-index.json",
+    "sitemap": "https://erintibbot.github.io/senior-care-ai/ai-sitemap.xml"
   },
   "contact": {
     "email": "erin.tibbot@pm.me"
   },
   "content": {
     "type": "ai-first",
-    "disclosure": "This site contains affiliate links. As an Amazon Associate, we may earn from qualifying purchases."
+    "disclosure": "This site contains affiliate links. As an Amazon Associate, we may earn from qualifying purchases.",
+    "summary": {
+      "recommendation_rows": 26,
+      "ready_affiliate_links": 23,
+      "rooms_covered": [
+        "Bathroom",
+        "Bedroom",
+        "Stairs",
+        "Entryway",
+        "Living Room",
+        "Exterior Walkways",
+        "Hallway",
+        "Emergency Prep"
+      ]
+    },
+    "focus": [
+      "aging in place",
+      "senior home safety",
+      "room-by-room hazard reduction",
+      "affiliate-supported product recommendations"
+    ]
   },
   "conformance": "level-1"
 }
