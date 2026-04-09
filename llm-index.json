@@ -1,7 +1,7 @@
 {
   "schema": "llm-ld-1.0",
-  "name": "Senior Care Essentials (AI-First)",
-  "description": "AI-readable summaries of senior care products and considerations, with affiliate links and disclosures.",
+  "name": "Senior Care Essentials for Aging at Home Safety (AI-First)",
+  "description": "AI-readable summaries of senior care products and considerations for aging at home safely, with links and DIY tips.",
   "url": "https://erintibbot.github.io/senior-care-ai/",
   "discovery": {
     "ai_discovery_page": "https://erintibbot.github.io/senior-care-ai/ai-discovery.html",
